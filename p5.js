@@ -130,9 +130,15 @@ const A = [
 //   A.map((x) => (x.id = x))
 // );
 
+// console.log(answer);
+
 // パターン３
-const obj = A.reduce((x, y) => {
-  x[y.id] = y;
-  return x;
+const obj = A.reduce((acc, value) => {
+  //y[0]
+  //x= LM_4vdv0: { id: 'LM_4vdv0', name: '河原 光希', email: 'Ci6_B@sample.net' },
+  const valueId = value.id;
+  const result = { ...acc, [valueId]: value };
+
+  return result;
 }, {});
 console.log(obj);
