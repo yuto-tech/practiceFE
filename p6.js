@@ -124,10 +124,10 @@ const Arr = [
 const result = Arr.filter((x) => Number(x.createAt.split("/")[0]) >= 2000);
 const sum = result.reduce((x, y) => {
   x += y.view;
-  return y, x;
+  return x;
 }, 0);
 //合計値
 console.log(sum);
 //平均値
 const average = sum / result.length;
-console.log(average);
+// console.log(average);
