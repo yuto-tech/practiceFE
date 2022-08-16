@@ -112,9 +112,11 @@ const A = [
 //     [id: string]: Entry
 // }
 
-/*Todo:
- *可変を使わなくても済む方法
- */
+//zozo.rickcloud.jp/wiki/pages/viewpage.action?pageId=309828106
+// const l = {
+//     'foo':{id:'foo',name:'bar',email:'@gmail'},
+//     'foo':{id:'foo',name:'bar',email:'@gmail'},
+// }
 
 // パターン１
 // const obj = {};
@@ -134,9 +136,3 @@ const obj = A.reduce((x, y) => {
   return x;
 }, {});
 console.log(obj);
-
-//zozo.rickcloud.jp/wiki/pages/viewpage.action?pageId=309828106
-// const l = {
-//     'foo':{id:'foo',name:'bar',email:'@gmail'},
-//     'foo':{id:'foo',name:'bar',email:'@gmail'},
-// }
