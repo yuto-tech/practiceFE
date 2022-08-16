@@ -115,20 +115,28 @@ const A = [
 /*Todo:
  *可変を使わなくても済む方法
  */
-const obj = {};
 
-const answer = A.map((x) => {
-  return (x.id = x);
-});
-console.log(answer);
+// パターン１
+// const obj = {};
+// A.forEach((x) => {
+//   obj[x.id] = x;
+// });
 
-A.forEach((x) => {
-  obj[x.id] = x;
-});
+// パターン２
+// const answer = Object.assign(
+//   {},
+//   A.map((x) => (x.id = x))
+// );
+
+// パターン３
+const obj = A.reduce((x, y) => {
+  x[y.id] = y;
+  return x;
+}, {});
+console.log(obj);
+
 //zozo.rickcloud.jp/wiki/pages/viewpage.action?pageId=309828106
 // const l = {
 //     'foo':{id:'foo',name:'bar',email:'@gmail'},
 //     'foo':{id:'foo',name:'bar',email:'@gmail'},
 // }
-
-// console.log(obj);

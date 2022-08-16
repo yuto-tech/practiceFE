@@ -1,33 +1,133 @@
 const Arr = [
   {
-    id: "FBwLMKuM",
-    url: "http://example.net",
-    createAt: "2001/10/23 15:53:21",
+    id: "YZrQhZgk",
+    url: "http://test.com",
+    createAt: "1977/7/19",
+    view: 7531,
   },
-  { id: "ky7dqCZp", url: "http://example.org", createAt: "2021/2/16 18:48:53" },
-  { id: "GLAZKs73", url: "http://test.jp", createAt: "2010/8/20 12:26:49" },
-  { id: "X4UpZAdT", url: "http://test.org", createAt: "2004/6/11 11:09:40" },
-  { id: "e7_0p6mz", url: "http://example.net", createAt: "2021/1/26 16:11:35" },
-  { id: "LYCnrCPC", url: "http://test.net", createAt: "1974/4/21 11:37:12" },
-  { id: "tchT2dRc", url: "http://test.jp", createAt: "2012/3/29 2:25:35" },
-  { id: "muD8pAfk", url: "http://example.jp", createAt: "2001/5/24 0:56:04" },
-  { id: "XeVl8SEQ", url: "http://sample.jp", createAt: "1977/9/4 6:15:00" },
-  { id: "vVXw9n3t", url: "http://example.com", createAt: "2009/6/27 7:26:05" },
   {
-    id: "grLPPbBE",
-    url: "http://sample.co.jp",
-    createAt: "2005/12/17 21:06:14",
+    id: "K190k1Ba",
+    url: "http://test.com",
+    createAt: "1976/5/5",
+    view: 4496,
   },
-  { id: "l8CS97hw", url: "http://example.com", createAt: "2016/6/4 0:15:02" },
-  { id: "PWQU3nzf", url: "http://test.net", createAt: "1979/12/26 13:58:11" },
-  { id: "lFcHoWPv", url: "http://example.com", createAt: "1986/5/26 15:45:12" },
-  { id: "JEl1HKPK", url: "http://example.org", createAt: "1980/4/11 3:14:56" },
-  { id: "NjGYlj_h", url: "http://sample.net", createAt: "2003/11/3 14:52:58" },
-  { id: "Ct35zt02", url: "http://test.org", createAt: "2017/1/15 14:35:07" },
-  { id: "Be7zxBCG", url: "http://test.net", createAt: "1973/5/29 23:49:31" },
-  { id: "jyICKleX", url: "http://sample.com", createAt: "2019/4/21 3:38:44" },
-  { id: "ev0KQ5Zc", url: "http://sample.co.jp", createAt: "2000/2/13 7:05:05" },
+  {
+    id: "cwzNfFWA",
+    url: "http://example.org",
+    createAt: "1980/8/3",
+    view: 7098,
+  },
+  {
+    id: "Qdkq4cmd",
+    url: "http://example.net",
+    createAt: "2002/4/5",
+    view: 8492,
+  },
+  {
+    id: "dvidGoo6",
+    url: "http://sample.com",
+    createAt: "2020/11/1",
+    view: 6489,
+  },
+  {
+    id: "pp9mAv00",
+    url: "http://example.com",
+    createAt: "2016/1/29",
+    view: 2851,
+  },
+  {
+    id: "Tg5Jn5GA",
+    url: "http://example.org",
+    createAt: "1997/2/17",
+    view: 9631,
+  },
+  {
+    id: "nZR9gsPp",
+    url: "http://test.com",
+    createAt: "1973/10/16",
+    view: 9660,
+  },
+  {
+    id: "YK60ZZO2",
+    url: "http://sample.com",
+    createAt: "1982/11/11",
+    view: 9515,
+  },
+  {
+    id: "Hum00Eyq",
+    url: "http://example.net",
+    createAt: "1987/5/19",
+    view: 2738,
+  },
+  {
+    id: "GrTm3xoK",
+    url: "http://sample.jp",
+    createAt: "2009/7/21",
+    view: 7028,
+  },
+  {
+    id: "MgXk2Kv2",
+    url: "http://test.net",
+    createAt: "2007/2/21",
+    view: 8909,
+  },
+  {
+    id: "cMIUNirz",
+    url: "http://test.com",
+    createAt: "2006/9/26",
+    view: 6351,
+  },
+  {
+    id: "Sem1p17g",
+    url: "http://example.co.jp",
+    createAt: "2006/12/10",
+    view: 4093,
+  },
+  {
+    id: "esYeRszp",
+    url: "http://example.net",
+    createAt: "1986/6/1",
+    view: 8285,
+  },
+  {
+    id: "KtLz5mdl",
+    url: "http://sample.org",
+    createAt: "1973/7/8",
+    view: 4821,
+  },
+  {
+    id: "jqE8iFt7",
+    url: "http://example.co.jp",
+    createAt: "2015/4/13",
+    view: 1679,
+  },
+  {
+    id: "nlN33yPD",
+    url: "http://test.net",
+    createAt: "1998/4/28",
+    view: 5483,
+  },
+  {
+    id: "ezlu0iq0",
+    url: "http://test.com",
+    createAt: "1986/6/28",
+    view: 3510,
+  },
+  {
+    id: "t2TDezbs",
+    url: "http://example.net",
+    createAt: "2010/2/24",
+    view: 8009,
+  },
 ];
-const result = Arr.filter((x) => Number(x.createAt.split("/")[0]) >= 2000);
 
-console.log(result);
+const result = Arr.filter((x) => Number(x.createAt.split("/")[0]) >= 2000);
+const sum = result.reduce((x, y) => {
+  x += y.view;
+  return y, x;
+}, 0);
+//合計値
+console.log(sum);
+//平均値
+const average = sum / result.length;
+console.log(average);
