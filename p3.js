@@ -157,3 +157,6 @@ console.log(answer);
 //             45       45       45       45     45 //error
 //answer = [{age:18},{age:21},{age:32},{age:42}]
 //
+
+//応用2
+//問題3 で組み込み関数の sort ( Array.prototype.sort ) を使用して問題を解いてください。
