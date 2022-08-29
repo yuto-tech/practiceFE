@@ -130,4 +130,4 @@ const sum = result.reduce((x, y) => {
 console.log(sum);
 //平均値
 const average = sum / result.length;
-// console.log(average);
+console.log(average);
